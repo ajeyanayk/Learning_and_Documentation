@@ -1,4 +1,6 @@
- Advantage and dis advantages of cloud computing
+# Pros and Cons of Clouds
+ 
+**Advantage and dis advantages of cloud computing**
 
 No cost on infrastructure: We don’t need to invest in hardware or any infrastructure. In general, every organization has to spend a lot on their IT infrastructure to set up and hire a specialized team.But if we  move to cloud computing services, then we don’t need to invest in these. We simply go to a cloud services provider and buy a cloud service.
 Minimum management and cost: When we opt for the cloud, the management of its infrastructure is the sole responsibility of the cloud provider and not of the user.
@@ -11,7 +13,7 @@ Data backup & recovery:  we can automatically backup all the data to the cloud o
 Huge cloud storage: Most cloud services provide us a free, secure and huge storage space to store all our valuable information.
 Automatic software updates: Updating a system every now and then can be a frustrating task for enterprises. The IT department needs to update the system for every individual which not only wastes time but affects productivity.But if we are using cloud-based applications, they will get automatically updated, without any involvement from the users.
 
-Disadvantages of cloud computing
+**Disadvantages of cloud computing**
 
 Requires good speed internet with good bandwidth: To access our cloud services, we need to have a good internet connection always with good bandwidth to upload or download files to/from the cloud
 Downtime: Since the cloud requires high internet speed and good bandwidth, there is always a possibility of service outage, which can result in business downtime. Today, no business can afford revenue or business loss due to downtime or slow down from an interruption in critical business processes.
