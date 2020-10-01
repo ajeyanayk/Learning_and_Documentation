@@ -1,4 +1,4 @@
-Programming languages are the languages which designed to communicate the instruction to the machine.
+### Programming languages are the languages which designed to communicate the instruction to the machine.
 
 There are three kind of programming languages
 
