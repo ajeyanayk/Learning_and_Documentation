@@ -21,7 +21,6 @@
 		```print(y)``` //which returns the value 7.25 <br />
 		```print(z)``` //which returns the value 64
 
-*The Math Module- to perform Mathematical tasks on numbers, we can import math module.*
 
 **math.sqrt()** - this function returns the square root of the mentioned number inside the square bracket. <br />
 	*Eg*:	```import math``` <br />
