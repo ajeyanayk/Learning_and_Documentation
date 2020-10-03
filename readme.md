@@ -2,42 +2,85 @@ This repository contains all my learnings in documentation
 
 ## Folder Structure
 1. **general_computer_concepts/**
-    * *computer_programming_langauges.md*    //general porgramming language info, and IDE
-    * *operating_system.md*                  //operating systems related
+    * *01_computer_programming_languages.md*    //general porgramming language info, and IDE
+    * *02_operating_system.md*                  //operating systems related
 
 2. **linux_operating_system/**
-    * *introduction_to_linux.md*             //basic things from linux os
+    * *01_introduction_to_linux.md*             //basic things from linux os
     * *linux_commands/*                     //set of linux essential command
-      * *basic.md*
-      * *ls_command.md*
-      * *cd_command.md*
-      * *cat_command.md*
-      * *makidr_rmdir_rm_command.md*
-      * *cp_mv_command.md*
-      * *touch_nano_sudo_command.md*
-    * *vi_commands.md*
-    * *bash_script.md*
+      * *01_basic_linux.md*
+      * *02_ls_command.md*
+      * *03_cd_command.md*
+      * *04_cat_command.md*
+      * *05_makidr_rmdir_rm_command.md*
+      * *06_cp_mv_command.md*
+      * *07_touch_nano_sudo_command.md*
+    * *02_vi_commands*
+    * *03_bash_script_tutorial.md*
   
 3.  **git_and_github/**
-    * *git_and_github.md*
-    * *git_training_workflow.md*
+    * *01_git_and_github.md*
+    * *02_git_training_workflow.md*
   
  4.  **python_language/**
       * *python_home/*
-        * *variable.md*
-        *
-        *
+        * *01_variable.md*
+        * *02_data_type.md*
+		* *03_number_casting.md*
+		* *04_strings.md*
+        * *05_Boolean.md*
+        * *06_operator.md*
+		* *collection*
+			* *01_collection_intro.md*
+			* *02_list.md*
+			* *03_set.md*
+			* *04_tupel.md*
+			* *05_dictionary.md*
+		* *07_if_else.md*
+		* *08_while_loop.md*
+		* *09_for_loop.md*
+		* *10_function.md*
+		* *11_lambda.md*
+		* *12_classe_object.md*
+		* *13_inheritance.md*
+		* *14_scope.md*
+		* *15_modules.md*
+		* *16_date.md*
+		* *17_math.md*
+		* *18_json.md*
+		* *19_reg_expression.md*
+		* *20_pip.md*
+		* *21_try_except.md*
+		* *22_user_input.md*
+		* *23_string_formating.md*
       * *file_handling/*
-        * *open_file.md*
-        *
-        *
+        * *01_open_file.md*
+        * *02_read_file.md*
+        * *03_write_create_file.md*
+		* *04_delete_file.md*
       * *Numpy/*
-        * *creating_array.md*
-        *
+        * *01_creating_array.md*
+        * *02_array_indexing.md*
+		* *03_array_slicing.md*
+		* *04_data_types.md*
+		* *05_copy_vs_view.md*
+		* *06_array_shape.md*
+		* *07_array_reshape.md*
+		* *08_array_iterating.md*
+		* *09_array_join.md*
+		* *10_array_split.md*
+		* *11_array_search.md*
+		* *12_array_sort.md*
+		* *13_array_filter.md*
+		* *14_random.md*
 5. **aws_cloud_technology/**
     * *general_concepts/*
-      * *pros_and_cons.md*
-      *
+      * *01_pros_and_cons.md*
+      * *02_networking.md*
+	  * *03_virtual_private_cloud.md*
+	  * *04_elastic_cloud_computing.md*
+	  * *05_simple_storage_service.md*
+	  * *06_identity_access_mgmt.md*
 
 ##  Useful Links
 
