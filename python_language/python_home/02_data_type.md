@@ -1,8 +1,11 @@
 <h1 align="center">Python Data Type</h1>
 
 * If we want to check whether the object belongs to the certain datatype <br />
-	Eg:	`x = "Ajeya Nayak"` <br />
-		`print(isinstance(x, str))` //which display shows True as x is string data type* 
+	Eg:	
+	```python
+	x = "Ajeya Nayak"
+	print(isinstance(x, str)) //which display shows True as x is string data type
+	```
 
 * Python has the following data types built-in by default, in these categories
 
