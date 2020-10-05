@@ -1,17 +1,20 @@
-# Regular Expression
+<h1 align="center">Regular Expression</h1>
 
-**Regex in python** - If we want to do string related task, we can use regex(re,regular expression) <br />
-	*Eg*:	```import re``` <br />
-			//Check if the string starts with "The" and ends with "Spain": <br />
-			```txt = "The rain in Spain"``` <br />
-			```x = re.search("^The.*Spain$", txt)```  <br />
-			// ^ - beggin,	.* - to in between,	$- end  <br />
-			```if x:``` <br />
-			  ```print("YES! We have a match!")``` <br />
-			```else:``` <br />
-			  ```print("No match")```
+* *Regex in python* - If we want to do string related task, we can use regex(re,regular expression) <br />
+	*Eg*:	
+```python
+			import re 
+			//Check if the string starts with "The" and ends with "Spain": 
+			txt = "The rain in Spain" 
+			x = re.search("^The.*Spain$", txt)  
+			// ^ - beggin,	.* - to in between,	$- end  
+			if x: 
+			  print("YES! We have a match!") 
+			else: 
+			  print("No match")
+```
 
-**Regex Functions** <br />
+* *Regex Functions* <br />
 
 | **Function** | **Description** |
 |--------------|------------------|
@@ -20,7 +23,7 @@
 | split        | Returns a list where the string has been split at each match |
 | sub          | Replaces one or many matches with a string|
 
-**Metacharecters** -  these are the characters with special meaning  <br />
+* *Metacharecters* -  these are the characters with special meaning  <br />
 
 | **Character** | **Description** | **Example** |
 |----------------|-----------------|----------------|
@@ -32,11 +35,11 @@
 | * | Zero or more occurrences | "aix*" |
 | + | One or more occurrences | "aix+" |
 | {} | Exactly the specified number of occurrences | "al{2}" |
-| l(pipe) | Either or | "fallslstays" |
+| \| | Either or | "fallslstays" |
 | () | Capture and group |   |
  
 
-**Special Sequence - a sequence start with \ followed the character and has special meaning  <br />
+* *Special Sequence - a sequence start with \ followed the character and has special meaning  <br />
 
 | **Character** | **Description** | **Example**|
 |----------------|-----------------|----------------|
