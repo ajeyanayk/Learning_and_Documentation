@@ -1,13 +1,13 @@
-# Operating System -Introduction
+<h1 align="center">Operating System - Introduction</h1>
 
-### Operating Systems (OS) is the software. It works as interface between User (Applicant) and Hardware.
+Operating Systems (OS) is the software. It works as interface between User (Applicant) and Hardware.
 
-+ **Why we need Operating System ?** <br />
++ Why we need Operating System ? <br />
 	
 	a. If we don't have Operating System then user need to write a program each time to access/interact with particular Hardware, Eg. : Printer, CPU etc.
 	b. It is very difficult to release the control of the Hardware when access is already established and also, it makes complicate to other user to control of the same Hardware.Thatswhy we need Operating System.
 
-#### There are mainly there types of Operating Systems
+**There are mainly there types of Operating Systems**
 
 1. **Windows Operating System** : <br />
 These are GUI based multi user multi tasking operating system  which is developed Microsoft corporation. Due to user friendly nature it got popularity early.
