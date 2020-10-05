@@ -1,42 +1,42 @@
-# Networking - Introduction
+<h1 align="center">Networking - Introduction</h1>
 
-**An IP address is a 32-bit number that uniquely identifies a host (computer or other device, such as a printer or router) on a TCP/IP network.**
+An IP address is a 32-bit number that uniquely identifies a host (computer or other device, such as a printer or router) on a TCP/IP network.
 
-IP addresses are normally expressed in dotted-decimal format, with four numbers separated by periods, such as *192.168.123.132*.<br />
-For example, the dotted-decimal IP address *192.168.123.132* is (in binary notation) the 32 bit number *110000000101000111101110000100*. This number may be hard to make sense of, so divide it into four parts of eight binary digits.
+IP addresses are normally expressed in dotted-decimal format, with four numbers separated by periods, such as `192.168.123.132`.<br />
+For example, the dotted-decimal IP address `192.168.123.132` is (in binary notation) the 32 bit number `110000000101000111101110000100`. This number may be hard to make sense of, so divide it into four parts of eight binary digits.
 
-These eight bit sections are known as octets. The example IP address, then, becomes *11000000.10101000.01111011.10000100*. This number only makes a little more sense, so for most uses, convert the binary address into dotted-decimal format *(192.168.123.132)*. The decimal numbers separated by periods are the octets converted from binary to decimal notation.
+These eight bit sections are known as octets. The example IP address, then, becomes `11000000.10101000.01111011.10000100`. This number only makes a little more sense, so for most uses, convert the binary address into dotted-decimal format *(192.168.123.132)`. The decimal numbers separated by periods are the octets converted from binary to decimal notation.
 
 An IP address has two parts. The first part of an IP address is used as a network address, the last part as a host address. If you take the example 192.168.123.132 and divide it into these two parts we get the following:
  
-   *192.168.123. Network .132 Host*
+   `192.168.123. Network .132 Host`
  
 -or-
-   *192.168.123.0 - network address. 0.0.0.132 - host address*.
+   `192.168.123.0 - network address. 0.0.0.132 - host address`.
 
 The second item, which is required for TCP/IP to work, is the subnet mask. The subnet mask is used by the TCP/IP protocol to determine whether a host is on the local subnet or on a remote network.
 
 In TCP/IP, the parts of the IP address that are used as the network and host addresses are not fixed, so the network and host addresses above cannot be determined unless you have more information. This information is supplied in another 32-bit number called a subnet mask. In this example, the subnet mask is 255.255.255.0. It is not obvious what this number means unless you know that 255 in binary notation equals 11111111; so, the subnet mask is:
  
-   *11111111.11111111.11111111.0000000*
+   `11111111.11111111.11111111.0000000`
  
 Lining up the IP address and the subnet mask together, the network and host portions of the address can be separated:
  
-   *11000000.10101000.01111011.10000100* -- IP address (*192.168.123.132*)
-   *11111111.11111111.11111111.00000000* -- Subnet mask (*255.255.255.0*)
+   `11000000.10101000.01111011.10000100` -- IP address (`192.168.123.132`)
+   `11111111.11111111.11111111.00000000` -- Subnet mask (`255.255.255.0`)
  
 The first 24 bits (the number of ones in the subnet mask) are identified as the network address, with the last 8 bits (the number of remaining zeros in the subnet mask) identified as the host address. This gives you the following:
  
-   *11000000.10101000.01111011.00000000* -- Network address (*192.168.123.0*)
-   *00000000.00000000.00000000.10000100* -- Host address (*000.000.000.132*)
+   `11000000.10101000.01111011.00000000` -- Network address (`192.168.123.0`)
+   `00000000.00000000.00000000.10000100` -- Host address (`000.000.000.132`)
  
 So now you know, for this example using a 255.255.255.0 subnet mask, that the network ID is 192.168.123.0, and the host address is 0.0.0.132. When a packet arrives on the 192.168.123.0 subnet (from the local subnet or a remote network), and it has a destination address of 192.168.123.132, your computer will receive it from the network and process it.
 
 Almost all decimal subnet masks convert to binary numbers that are all ones on the left and all zeros on the right. Some other common subnet masks are:
  
    Decimal                 Binary
-   *255.255.255.192*         *1111111.11111111.1111111.11000000*
-   *255.255.255.224*         *1111111.11111111.1111111.11100000*
+   `255.255.255.192`         `1111111.11111111.1111111.11000000`
+   `255.255.255.224`         `1111111.11111111.1111111.11100000`
 
 
  A subnet mask is used to divide an IP address into two parts. One part identifies the host (computer), the other part identifies the network to which it belongs. To better understand how IP addresses and subnet masks work, look at an IP (Internet Protocol) address and see how it is organized.
