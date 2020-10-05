@@ -1,6 +1,8 @@
-### Programming languages are the languages which designed to communicate the instruction to the machine.
+<h1 align="center">Computer Programming Languages</h1> 
 
-There are three kind of programming languages
+Programming languages are the languages which designed to communicate the instruction to the machine.
+
+**There are three kind of programming languages**
 
 1. **Machine Level Languages (Low Level Languages)**
 	These are the languages which machine understands in the form of 0 or 1. In older days we need to give input  in the form of 0 or 1 so that machine understands.
