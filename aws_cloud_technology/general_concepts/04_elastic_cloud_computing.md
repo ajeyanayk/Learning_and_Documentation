@@ -1,8 +1,8 @@
-# Elastic Cloud Computing (EC2)
+<h1 align="center">Elastic Cloud Computing Technology(EC2)</h1>
 
-**EC2 provides scalable computing capacity in Web Services cloud. Using EC2 eliminates our need to invest in hardware up front, so we can develop and deploy applications faster. we can use  EC2 to launch as many or as few virtual servers as we need, configure security and networking, and manage storage. EC2 enables us to scale up or down to handle changes in requirements or spikes in popularity, reducing our need to forecast traffic.** <br />
+EC2 provides scalable computing capacity in Web Services cloud. Using EC2 Technology eliminates our need to invest in hardware up front, so we can develop and deploy applications faster. we can use  EC2 to launch as many or as few virtual servers as we need, configure security and networking, and manage storage. EC2 enables us to scale up or down to handle changes in requirements or spikes in popularity, reducing our need to forecast traffic.<br />
 
-#### Amazon EC2 provides the following features:
+**Amazon EC2 provides the following key features**
 
 + Virtual computing environments, known as instances
 + Preconfigured templates for our instances, known as Amazon Machine Images (AMIs), that package the bits we need for our server (including the operating system and additional software)
