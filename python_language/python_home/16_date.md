@@ -1,35 +1,43 @@
-# Date Module
+<h1 align="center">Date Module</h1>
 
-**To work with date & time as date object, we need to import datetime. Which has year,month, date ,hour , minute,second and millisecond.**
+To work with date & time as date object, we need to import datetime. Which has year,month, date ,hour , minute,second and millisecond.
 
-**Date Output** <br />
+<ins>**Date Output**</ins><br />
 * If we want to display current time  <br />
-			```import datetime```  <br />
-			```x = datetime.datetime.now()```  <br />
-			```print(x)```  <br />
-		//which displays current time   <br />
-	*Eg*: **2020-08-01 13:06:50.990519 (YYYY-MM-DD HH:MM:SS:ms)**
+```python			
+			import datetime  
+			x = datetime.datetime.now()  
+			print(x)  
+		//which displays current time   
+```
+	*Eg*: `2020-08-01 13:06:50.990519 (YYYY-MM-DD HH:MM:SS:ms)`
 
 * If we need Year and Name of weekday  <br />
-			```import datetime```  <br />
-			```x = datetime.datetime.now()```  <br />
-			```print(x.year)``` //which displays as 2020  <br />
-			```print(x.strftime("%A"))``` //which displays Saturday
+```python
+			import datetime  
+			x = datetime.datetime.now()  
+			print(x.year) //which displays as 2020  
+			print(x.strftime("%A")) //which displays Saturday
+```
 			
-**Creating Date Objects**  <br />
-* If we want to construct date, we can use datetime() along with datetime module  <br />
-	*Eg*:	```import datetime```  <br />
-			```x = datetime.datetime(2020, 5, 17)``` //which displays 2020-05-17 00:00:00  <br />
-			```print(x)```
+* *Creating Date Objects* - * If we want to construct date, we can use datetime() along with datetime module  <br />
+	*Eg*:	
+```python
+			import datetime  
+			x = datetime.datetime(2020, 5, 17) //which displays 2020-05-17 00:00:00  
+			print(x)
+```
 
- **The Strftime() Method** <br />
-* The strftime() takes one parameter , format and return with string.  <br />
-	*Eg*:	```import datetime```  <br />
-			```x = datetime.datetime(2018, 6, 1)```  <br />
-			```print(x.strftime("%B"))``` //%B directive are to find month name in full format  <br />
+* *The Strftime() Method* - The strftime() takes one parameter , format and return with string.  <br />
+	*Eg*:	
+```python
+			import datetime  
+			x = datetime.datetime(2018, 6, 1)  
+			print(x.strftime("%B")) //%B directive are to find month name in full format  
 		//which display month name in full format as June
+```
 
-#### List of directories and Description
+**List of directories and Description**
 	
 | **Directive** | **Description** | **Example**|
 |---------------|-----------------|------------|
