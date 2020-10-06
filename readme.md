@@ -1,4 +1,4 @@
-<h1 align="center">Learning and Docmentation</h1>
+<h1 align="center">Learning and Documentation</h1>
 
 This repository contains all my learnings in documentation 
 
