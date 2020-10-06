@@ -1,6 +1,8 @@
+<h1 align="center">Learning and Docmentation</h1>
+
 This repository contains all my learnings in documentation 
 
-## Folder Structure
+<h2>Content</h2>
 1. **general_computer_concepts/**
     * *01_computer_programming_languages.md*    //general porgramming language info, and IDE
     * *02_operating_system.md*                  //operating systems related
@@ -100,8 +102,7 @@ This repository contains all my learnings in documentation
 
 Supervised by : [vazudew](vazudew@gmail.com)
 
-
-
-  
+<h2>Contact :</h2>
+For any feedback, or quieries please Email to ajeyanayak@gmail.com:star2:
 
 
