@@ -1,6 +1,6 @@
 <h1 align="center">Git Working flow</h1>
 
-![git_working_flow](./images/git_workflow.png)
+![git_working_flow](../images/git_workflow.png)
 
 <h4>These are basic commands of Git, when we want to know the information of current branch</h4>
 
