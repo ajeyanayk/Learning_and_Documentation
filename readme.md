@@ -3,13 +3,14 @@
 This repository contains all my learnings in documentation 
 
 <h2>Content</h2>
+
 1. **general_computer_concepts/**
-    * *01_computer_programming_languages.md*    //general porgramming language info, and IDE
-    * *02_operating_system.md*                  //operating systems related
+    * *01_computer_programming_languages.md*    
+    * *02_operating_system.md*                 
 
 2. **linux_operating_system/**
-    * *01_introduction_to_linux.md*             //basic things from linux os
-    * *linux_commands/*                     //set of linux essential command
+    * *01_introduction_to_linux.md*            
+    * *linux_commands/*                     
       * *01_basic_linux.md*
       * *02_ls_command.md*
       * *03_cd_command.md*
