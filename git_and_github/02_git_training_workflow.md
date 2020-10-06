@@ -33,24 +33,24 @@
 
 * Steps for movement of files if the repositories are already created in GITHUB
 
-1. *git clone <REPOSITORY_NAME>* - command is used to pull the data from perticular repository
-2. *git checkout -b <NEW_BRANCH_NAME>* - to switch from one branch to another
-3. *git add -A or git add <FILENAME>* - to add a new file to branch
-4. *git commit -m "description"* - to commit a new/updated file to branch
-5. *git push -u origin <NEW_BRANCH_NAME>* - moving a file or set of files in branch to github
+  1. *git clone <REPOSITORY_NAME>* - command is used to pull the data from perticular repository
+  2. *git checkout -b <NEW_BRANCH_NAME>* - to switch from one branch to another
+  3. *git add -A or git add <FILENAME>* - to add a new file to branch
+  4. *git commit -m "description"* - to commit a new/updated file to branch
+  5. *git push -u origin <NEW_BRANCH_NAME>* - moving a file or set of files in branch to github
 
 * Steps to create a new Repository in local machine and movement of files
 
-1. mkdir <REPOSITORY_NAME> - create a folder in local machine with Reposity name
-2. cd <REPOSITORY_NAME> - change into folder
-3. git init - which initialize a new repository
-4. create files #normal editor files - 
-5. git add -A or git add <FILENAME> ( -A for all files) - add the file to staging area
-6. git commit -m "some useful message" - to commit a new/updated file to branch
-7. create a repository on GITHUB - create a Folder in GITHUB
-8. git remote add origin remote <repository URL> - to connect GITHUB from local machine
-9. git remote -v (verify ) - to verify whether local machine is in connection with GITHUB
-10. git push origin master - to move file/files to GITHUB
+  1. mkdir <REPOSITORY_NAME> - create a folder in local machine with Reposity name
+  2. cd <REPOSITORY_NAME> - change into folder
+  3. git init - which initialize a new repository
+  4. create files #normal editor files - 
+  5. git add -A or git add <FILENAME> ( -A for all files) - add the file to staging area
+  6. git commit -m "some useful message" - to commit a new/updated file to branch
+  7. create a repository on GITHUB - create a Folder in GITHUB
+  8. git remote add origin remote <repository URL> - to connect GITHUB from local machine
+  9. git remote -v (verify ) - to verify whether local machine is in connection with GITHUB
+  10. git push origin master - to move file/files to GITHUB
 
 <h4>update setup</h4>
 
@@ -58,16 +58,16 @@
 * git pull --rebase
 
 * steps to be followed some of unsusual scenarios(need to merge file to master to test in local system etc.)
-1. git clone latest repo
-or
-1. git fetch
-2. git checkout -b <BRANCH_NAME>
-3. work on your code, check if everything is ok with git status
-4. git add -A
-5. git commit -m "descripttion"
-6. git pull --rebase
-7. resolve any conflicts and update
-8. git push
+  1. git clone latest repo
+  or
+  1. git fetch
+  2. git checkout -b <BRANCH_NAME>
+  3. work on your code, check if everything is ok with git status
+  4. git add -A
+  5. git commit -m "descripttion"
+  6. git pull --rebase
+  7. resolve any conflicts and update
+  8. git push
 
 Useful Links :
 ==============
